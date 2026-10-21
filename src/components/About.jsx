@@ -30,13 +30,10 @@ export default function About() {
 
           {/* Texte de présentation fluide sans text-justify forcé */}
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-[#3B3434]">
-            Étudiante en troisième année de développement informatique à l'IT University,
-            j'évolue à la croisée du code et de la création. Spécialisée en développement
-            full-stack, je conçois des applications web robustes et performantes tout en y
-            insufflant une véritable identité visuelle. Grâce à ma double compétence en design
-            graphique et en ingénierie logicielle, je maîtrise l'ensemble du processus de
-            création d'un projet numérique de la logique back-end jusqu'à l'expérience
-            utilisateur et l'esthétique finale.
+            Etudiante en Design Informatique, à la fois développeuse web 
+            et designer UI/UX, avec une vision complète qui va de la conception de l’interface 
+            jusqu’au développement de l’application. Je suis toujours en quête de nouvelles 
+            expériences pour renforcer mes compétences et évoluer dans le domaine des technologies.
           </p>
 
           {/* Petits badges statut */}
