@@ -44,10 +44,10 @@ export default function Navbar() {
         {/* ── Logo / Signature ── */}
         <a href="#hero" className="flex items-center gap-2 group shrink-0">
           <span className="font-display font-extrabold text-2xl text-[#732C33] tracking-tighter">
-            EH<span className="text-[#4BAAC8]">.</span>
+            <span className="text-[#4BAAC8]"></span>
           </span>
           <span className="font-cursive text-2xl text-[#B59948] hidden sm:inline-block leading-none mt-1">
-            Elina Hajarison
+            K
           </span>
         </a>
 

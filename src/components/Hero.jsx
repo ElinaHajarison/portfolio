@@ -32,11 +32,11 @@ export default function Hero() {
           Je suis Elina Hajarison,
         </span>
 
-        {/* Grand titre naturel avec interlignage serré (sans tracking-widest étiré) */}
+        {/* Grand titre naturel avec proportions équilibrées (sans étirement Syne) */}
         <h1
-          className="font-display font-black uppercase tracking-tight
-                     text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-[#F5EEE6]
-                     leading-[1.08] max-w-4xl"
+          className="font-sans font-black uppercase tracking-tight
+                     text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#F5EEE6]
+                     leading-tight sm:leading-[1.1] max-w-4xl"
         >
           C'est mon{' '}
           <span className="text-[#732C33] inline-block">Creative Portfolio</span>

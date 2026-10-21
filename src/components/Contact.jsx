@@ -65,7 +65,7 @@ export default function Contact() {
         {/* Titre "Contact" naturel et compact */}
         <div className="space-y-3">
           <h2
-            className="font-display font-black text-5xl sm:text-7xl md:text-8xl text-[#F5EEE6]
+            className="font-sans font-black text-6xl sm:text-7xl md:text-8xl text-[#F5EEE6]
                        tracking-tight leading-none"
           >
             Contact
@@ -345,7 +345,7 @@ export default function Contact() {
                 <span
                   className="font-cursive text-3xl sm:text-4xl text-[#B59948] select-none -rotate-6"
                 >
-                  Mercii
+                  Merci
                 </span>
               </div>
             </div>

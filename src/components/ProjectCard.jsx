@@ -14,7 +14,7 @@ export default function ProjectCard({ project, onImageClick }) {
   return (
     <article
       className="group grid grid-cols-1 md:grid-cols-12 gap-6 items-start
-                 bg-white/45 border border-[#732C33]/10 rounded-3xl
+                 bg-white/45 border border-[#4BAAC8]/20 rounded-3xl
                  p-6 sm:p-8 shadow-paper hover:shadow-float
                  transition-all duration-300"
     >

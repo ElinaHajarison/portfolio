@@ -13,14 +13,14 @@ export default function DesignProjects({ onImageClick }) {
         {/* ── Titre "projets / Designs" ── */}
         <div className="relative inline-block select-none">
           <h2
-            className="font-display font-black text-5xl sm:text-7xl md:text-8xl
+            className="font-display font-black text-6xl sm:text-8xl md:text-9xl
                        text-[#732C33] tracking-tight leading-none"
           >
             projets
           </h2>
           {/* "Designs" calligraphié doré */}
           <span
-            className="font-cursive text-3xl sm:text-5xl md:text-6xl text-[#B59948]
+            className="font-cursive text-5xl sm:text-7xl md:text-8xl text-[#B59948]
                        absolute -bottom-4 right-0 sm:right-6 -rotate-6 leading-none"
           >
             Designs

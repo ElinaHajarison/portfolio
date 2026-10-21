@@ -10,21 +10,23 @@ export default function About() {
         {/* ── Texte gauche ── */}
         <div className="md:col-span-7 space-y-6">
 
-          {/* Titre principal bordeaux compact */}
+          {/* Titre principal bordeaux naturel */}
           <h2
-            className="font-display font-black text-4xl sm:text-6xl md:text-7xl text-[#732C33]
-                       tracking-tight leading-[1.05]"
+            className="font-sans font-black text-6xl sm:text-7xl md:text-8xl text-[#732C33]
+                       tracking-tight leading-tight inline-block w-fit"
           >
             Bonjour !<br />Je suis Elina.
           </h2>
 
           {/* Sous-titre cyan naturel sans étirement artificiel */}
-          <p
-            className="font-display font-bold text-sm sm:text-base tracking-wide
-                       text-[#4BAAC8] uppercase leading-snug"
-          >
-            Développeuse Full-Stack &amp; Designer Graphique
-          </p>
+          <div>
+            <p
+              className="font-sans font-bold text-sm sm:text-base tracking-wider
+                         text-[#4BAAC8] uppercase leading-snug inline-block w-fit"
+            >
+              Développeuse Full-Stack &amp; Designer Graphique
+            </p>
+          </div>
 
           {/* Texte de présentation fluide sans text-justify forcé */}
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-[#3B3434]">
