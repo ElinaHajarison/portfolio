@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// Carte réutilisable pour les projets Informatiques – calquée fidèlement sur le modèle des cartes Design
+// Carte réutilisable pour les projets Informatiques avec typographie soignée
 export default function TechProjectCard({ project, onImageClick }) {
   const backList = project.images?.backList && project.images.backList.length > 0
     ? project.images.backList
@@ -46,34 +46,42 @@ export default function TechProjectCard({ project, onImageClick }) {
         </span>
       </div>
 
-      {/* ── Informations & Description (colonne 2: md:col-span-5) ── */}
+      {/* ── Informations & Description (Typographie soignée) (colonne 2: md:col-span-5) ── */}
       <div className="md:col-span-5 space-y-3">
-        {/* Type de projet en doré */}
-        <span className="text-xs font-bold uppercase tracking-wider text-[#B59948] block">
+        {/* Surtitre / Type de projet en doré */}
+        <span className="text-xs sm:text-[13px] font-bold uppercase tracking-wider text-[#B59948] block">
           {project.type}
         </span>
 
-        {/* Titre principal */}
-        <h3 className="font-sans font-black text-xl sm:text-2xl text-[#732C33] leading-snug">
+        {/* Titre principal bordeaux imposant et compact */}
+        <h3
+          className="font-sans font-black text-2xl sm:text-3xl lg:text-[2rem] text-[#732C33]
+                     tracking-tight leading-tight group-hover:text-[#8E3841] transition-colors"
+        >
           {project.title}
         </h3>
 
-        {/* Sous-titre optionnel */}
+        {/* Sous-titre cyan si présent */}
         {project.subtitle && (
-          <p className="font-semibold text-xs sm:text-sm text-[#4BAAC8]">
+          <p className="font-semibold text-xs sm:text-sm text-[#4BAAC8] tracking-wide">
             {project.subtitle}
           </p>
         )}
 
-        {/* Description fluide sans étirement */}
-        <p className="text-sm sm:text-[15px] text-[#3C3535] leading-relaxed">
+        {/* Description fluide */}
+        <p className="text-sm sm:text-[15px] text-[#3C3535] leading-relaxed pt-1">
           {project.description}
         </p>
 
         {/* Badges technologies bordeaux */}
-        <div className="flex flex-wrap gap-2 pt-1">
+        <div className="flex flex-wrap gap-2 pt-2">
           {project.technologies.map((tech, i) => (
-            <span key={i} className="tech-badge">
+            <span
+              key={i}
+              className="text-xs font-semibold px-3.5 py-1.5 rounded-full
+                         bg-[#732C33] text-white shadow-sm hover:bg-[#8E3841]
+                         transition-colors duration-200"
+            >
               {tech}
             </span>
           ))}
@@ -180,7 +188,6 @@ export default function TechProjectCard({ project, onImageClick }) {
             )}
           </>
         ) : (
-          /* Placeholder élégant si aucune image */
           <div
             className="w-full aspect-[4/3] rounded-2xl border-2 border-dashed border-[#4BAAC8]/30
                        bg-[#4BAAC8]/05 flex items-center justify-center"
