@@ -15,7 +15,7 @@ export default function About() {
             className="font-display font-black text-4xl sm:text-6xl md:text-7xl text-[#732C33]
                        tracking-tight leading-[1.05]"
           >
-            coucou !<br />Je suis Elina.
+            Bonjour !<br />Je suis Elina.
           </h2>
 
           {/* Sous-titre cyan naturel sans étirement artificiel */}
